@@ -18,7 +18,7 @@ namespace Lab1
         public Categories category { get; set; }
         public int price { get; set; }
 
-        ArtPiece(String title, Categories category, int price)
+        public ArtPiece(String title, Categories category, int price)
         {
             m_title = title;
             m_category = category;
