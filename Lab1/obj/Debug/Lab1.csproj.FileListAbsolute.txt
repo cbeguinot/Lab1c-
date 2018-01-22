@@ -1,5 +1,0 @@
-C:\Users\Louis\Desktop\Docs ECE\ING4\S2\C#\Lab1c-\Lab1\bin\Debug\Lab1.exe.config
-C:\Users\Louis\Desktop\Docs ECE\ING4\S2\C#\Lab1c-\Lab1\bin\Debug\Lab1.exe
-C:\Users\Louis\Desktop\Docs ECE\ING4\S2\C#\Lab1c-\Lab1\bin\Debug\Lab1.pdb
-C:\Users\Louis\Desktop\Docs ECE\ING4\S2\C#\Lab1c-\Lab1\obj\Debug\Lab1.exe
-C:\Users\Louis\Desktop\Docs ECE\ING4\S2\C#\Lab1c-\Lab1\obj\Debug\Lab1.pdb

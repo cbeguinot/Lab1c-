@@ -24,20 +24,26 @@ namespace Lab1
 
 
             //afficher les pièces triées
-            System.Console.WriteLine("pièces triées par prix :");
+            System.Console.WriteLine("\npièces triées par prix :");
             List<ArtPiece> galerySorted = artGalery.sort();
             foreach (ArtPiece piece in galerySorted)
             {
                 System.Console.WriteLine(piece.ToString());
             }
-            System.Console.ReadLine();
 
             //PaintingOver100 :
-            System.Console.WriteLine("PaintingOver100");
-
+            System.Console.WriteLine(" \nPaintingOver100");
+            PaintingOver100 selection1 = new PaintingOver100();
+            artGalery.processArtPiece(selection1);
 
             //SculptureUnder100 :
-            System.Console.WriteLine("SculptureUnder100");
+            System.Console.WriteLine("\nSculptureUnder100 : ");
+            SculptureUnder100 selection2 = new SculptureUnder100();
+            artGalery.processArtPiece(selection2);
+
+            //Select over 150
+            System.Console.WriteLine("\nOver150 : ");
+            artGalery.processArtPiece(artGalery);
 
         }
 
