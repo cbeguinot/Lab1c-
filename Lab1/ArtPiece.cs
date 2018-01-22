@@ -28,17 +28,12 @@ namespace Lab1
             m_price = price;
         }
 
-        public void CompareTo(object o) { return this.price.CompareTo((o as ArtPiece).price); }
+        public int CompareTo(object o) { return this.price.CompareTo((o as ArtPiece).price); }
 
         override
         public String ToString()
         {
             return "Ceci est une piece artistique !";
-        }
-
-        int IComparable.CompareTo(object obj)
-        {
-            throw new NotImplementedException();
         }
     }
 }
