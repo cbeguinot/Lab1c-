@@ -52,6 +52,8 @@ namespace Lab1
         public List<ArtPiece> sort()
         {
             List<ArtPiece> galerySorted = m_Collection.OrderBy(x => x.price).ToList();
+            //Si on veut trier complètement m_Collection :
+            m_Collection = galerySorted;
             return galerySorted;
         }
     }
