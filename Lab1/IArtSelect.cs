@@ -8,6 +8,6 @@ namespace Lab1
 {
     interface IArtSelect
     {
-        bool ArtSelect(ArtPiece artPiece);
+        bool select(ArtPiece artPiece);
     }
 }

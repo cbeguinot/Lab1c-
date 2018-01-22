@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Lab1
 {
-    class ArtGalery
+    class ArtGalery: IArtSelect
     {
         //Collection of ArtPieces
         private List<ArtPiece> m_Collection =  new List<ArtPiece>();
@@ -53,10 +53,16 @@ namespace Lab1
 
         }
 
-        //
-        public void select()
+        public bool select(ArtPiece artPiece)
         {
-
+            if(artPiece.price > 150)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
 
         //Tri la gallerie par prix croissant
