@@ -10,15 +10,25 @@ namespace Lab1
     {
         static void Main(string[] args)
         {
+            Program program = new Program();
+            program.Process();
+         
+
+            System.Console.ReadLine();
         }
 
         private void Process()
         {
+            //Init artGalery
             ArtGalery artGalery = new ArtGalery();
             artGalery.initialize();
 
             //afficher les pièces triées
             List<ArtPiece> galerySorted = artGalery.sort();
+            Console.WriteLine(galerySorted[0].title);
+
+
+            Console.WriteLine("salut");
         }
 
         class PaintingOver100 : IArtSelect

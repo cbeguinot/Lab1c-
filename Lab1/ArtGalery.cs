@@ -51,7 +51,6 @@ namespace Lab1
         {
             List<ArtPiece> galerySorted = new List<ArtPiece>();
 
-
             galerySorted.Add(new ArtPiece("Badly Shapen Pot", Categories.SCULPTURE, 25));
 
             return galerySorted;

@@ -14,7 +14,10 @@ namespace Lab1
         private Categories m_category;
         private int m_price;
 
-        public String title { get; set; }
+        public String title {
+            get { return m_title; }
+            set { m_title = value; }
+        }
         public Categories category { get; set; }
         public int price { get; set; }
 
