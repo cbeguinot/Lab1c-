@@ -18,22 +18,35 @@ namespace Lab1
             get { return m_title; }
             set { m_title = value; }
         }
-        public Categories category { get; set; }
-        public int price { get; set; }
-
-        public ArtPiece(String title, Categories category, int price)
+        public Categories category
         {
-            m_title = title;
-            m_category = category;
-            m_price = price;
+            get { return m_category; }
+            set { m_category = value; }
+        }
+        public int price
+        {
+            get { return m_price; }
+            set { m_price = value; }
         }
 
-        public int CompareTo(object o) { return this.price.CompareTo((o as ArtPiece).price); }
+        public ArtPiece(String t, Categories c, int p)
+        {
+            title = t;
+            category = c;
+            price = p;
+        }
+
+        public int CompareTo(object o) {
+            return this.price.CompareTo((o as ArtPiece).price);
+        }
 
         override
         public String ToString()
         {
-            return "Ceci est une piece artistique !";
+            return "Cette piece se nomme " + title + 
+                ", appartient a la categorie " + category + 
+                " et coute " + price + 
+                ".";
         }
     }
 }
