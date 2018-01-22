@@ -7,7 +7,12 @@ using System.Threading.Tasks;
 namespace Lab1
 {
     enum Categories {PAINTING, DRAWING, SCULPTURE};
+<<<<<<< HEAD
     class ArtPiece: IComparable
+=======
+
+    class ArtPiece
+>>>>>>> 458e8c1e09ab1241f76fc6b65bccaffdc8a68a71
     {
         private String m_title;
         private Categories m_category;
