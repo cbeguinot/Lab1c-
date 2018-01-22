@@ -11,5 +11,29 @@ namespace Lab1
         static void Main(string[] args)
         {
         }
+
+        private void Process()
+        {
+            ArtGalery artGalery = new ArtGalery();
+            artGalery.initialize();
+
+            //afficher les pièces triées
+            List<ArtPiece> galerySorted = artGalery.sort();
+        }
+
+        class PaintingOver100 : IArtSelect
+        {
+            bool IArtSelect.ArtSelect(ArtPiece artPiece)
+            {
+                throw new NotImplementedException();
+            }
+        }
+        class SculptureUnder100 : IArtSelect
+        {
+            bool IArtSelect.ArtSelect(ArtPiece artPiece)
+            {
+                throw new NotImplementedException();
+            }
+        }
     }
 }
