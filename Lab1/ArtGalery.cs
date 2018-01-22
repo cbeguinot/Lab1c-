@@ -38,8 +38,19 @@ namespace Lab1
         //Responsible for printing selected ArtPieces
         public void processArtPiece()
         {
+            List<ArtPiece> galerySelected = m_Collection;
 
-            Console.WriteLine(m_Collection);
+            foreach (ArtPiece piece in m_Collection)
+            {
+                if (select(piece)==true)
+                    galerySelected.Add(piece);
+            }
+
+            foreach (ArtPiece piece in galerySelected)
+            {
+                System.Console.WriteLine(piece.ToString());
+            }
+
         }
 
         //
