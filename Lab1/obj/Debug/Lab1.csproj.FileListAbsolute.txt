@@ -5,8 +5,18 @@ C:\Users\Louis\Desktop\Docs ECE\ING4\S2\C#\Lab1c-\Lab1\bin\Debug\Lab1.pdb
 C:\Users\Louis\Desktop\Docs ECE\ING4\S2\C#\Lab1c-\Lab1\obj\Debug\Lab1.csprojResolveAssemblyReference.cache
 C:\Users\Louis\Desktop\Docs ECE\ING4\S2\C#\Lab1c-\Lab1\obj\Debug\Lab1.exe
 C:\Users\Louis\Desktop\Docs ECE\ING4\S2\C#\Lab1c-\Lab1\obj\Debug\Lab1.pdb
+<<<<<<< HEAD
 D:\ING4\S8\C#\Lab1\Lab1\bin\Debug\Lab1.exe
 D:\ING4\S8\C#\Lab1\Lab1\bin\Debug\Lab1.pdb
 D:\ING4\S8\C#\Lab1\Lab1\obj\Debug\Lab1.csprojResolveAssemblyReference.cache
 D:\ING4\S8\C#\Lab1\Lab1\obj\Debug\Lab1.exe
 D:\ING4\S8\C#\Lab1\Lab1\obj\Debug\Lab1.pdb
+=======
+C:\Users\Pauline\OneDrive\Documents\cours\ING4\S2\C#\projet1\Lab1c-\Lab1\bin\Debug\Lab1.exe.config
+C:\Users\Pauline\OneDrive\Documents\cours\ING4\S2\C#\projet1\Lab1c-\Lab1\bin\Debug\Lab1.exe
+C:\Users\Pauline\OneDrive\Documents\cours\ING4\S2\C#\projet1\Lab1c-\Lab1\bin\Debug\Lab1.pdb
+C:\Users\Pauline\OneDrive\Documents\cours\ING4\S2\C#\projet1\Lab1c-\Lab1\obj\Debug\Lab1.csprojResolveAssemblyReference.cache
+C:\Users\Pauline\OneDrive\Documents\cours\ING4\S2\C#\projet1\Lab1c-\Lab1\obj\Debug\Lab1.csproj.CoreCompileInputs.cache
+C:\Users\Pauline\OneDrive\Documents\cours\ING4\S2\C#\projet1\Lab1c-\Lab1\obj\Debug\Lab1.exe
+C:\Users\Pauline\OneDrive\Documents\cours\ING4\S2\C#\projet1\Lab1c-\Lab1\obj\Debug\Lab1.pdb
+>>>>>>> 74a96a28f2b7c93838e9f4794718d0506144cc1b

@@ -28,10 +28,7 @@ namespace Lab1
             m_price = price;
         }
 
-        public void CompareTo(Object o)
-        {
-
-        }
+        public void CompareTo(object o) { return this.price.CompareTo((o as ArtPiece).price); }
 
         override
         public String ToString()

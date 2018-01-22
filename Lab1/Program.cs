@@ -12,9 +12,8 @@ namespace Lab1
         {
             Program program = new Program();
             program.Process();
-         
-
             System.Console.ReadLine();
+
         }
 
         private void Process()
@@ -25,10 +24,11 @@ namespace Lab1
 
             //afficher les pièces triées
             List<ArtPiece> galerySorted = artGalery.sort();
-            Console.WriteLine(galerySorted[0].title);
-
-
-            Console.WriteLine("salut");
+            foreach (ArtPiece piece in galerySorted)
+            {
+                System.Console.WriteLine(piece.title);
+            }
+            System.Console.ReadLine();
         }
 
         class PaintingOver100 : IArtSelect
