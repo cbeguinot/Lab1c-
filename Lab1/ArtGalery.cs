@@ -42,17 +42,16 @@ namespace Lab1
             Console.WriteLine(m_Collection);
         }
 
+        //
         public void select()
         {
 
         }
 
+        //Tri la gallerie par prix croissant
         public List<ArtPiece> sort()
         {
-            List<ArtPiece> galerySorted = new List<ArtPiece>();
-
-            galerySorted.Add(new ArtPiece("Badly Shapen Pot", Categories.SCULPTURE, 25));
-
+            List<ArtPiece> galerySorted = m_Collection.OrderBy(x => x.price).ToList();
             return galerySorted;
         }
     }

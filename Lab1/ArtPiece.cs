@@ -19,7 +19,10 @@ namespace Lab1
             set { m_title = value; }
         }
         public Categories category { get; set; }
-        public int price { get; set; }
+        public int price {
+            get { return m_price; }
+            set { m_price = value; }
+        }
 
         public ArtPiece(String title, Categories category, int price)
         {
