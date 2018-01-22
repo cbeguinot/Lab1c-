@@ -4,14 +4,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace Lab1
 {
     class ArtGalery
     {
+        //Collection of ArtPieces
         private List<ArtPiece> m_Collection =  new List<ArtPiece>();
+        public List<ArtPiece> collection
+        {
+            get { return m_Collection; }
+            set { m_Collection = value; }
+        }
 
-
-        private void initialize()
+        //initialization method
+        public void initialize()
         {
             m_Collection.Add(new ArtPiece("Bold and Brash", Categories.PAINTING, 140));
             m_Collection.Add(new ArtPiece("Le Brasseur", Categories.SCULPTURE, 40));
@@ -27,6 +34,8 @@ namespace Lab1
             m_Collection.Add(new ArtPiece("Badly Shapen Pot", Categories.SCULPTURE, 25));
         }
 
+        //ProcessArtPiece method receiving IArtSelect as arg
+        //Responsible for printing selected ArtPieces
         public void processArtPiece()
         {
 
