@@ -32,6 +32,12 @@ namespace Lab1
             }
             System.Console.ReadLine();
 
+            //PaintingOver100 :
+            System.Console.WriteLine("PaintingOver100");
+
+
+            //SculptureUnder100 :
+            System.Console.WriteLine("SculptureUnder100");
 
         }
 
