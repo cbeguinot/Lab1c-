@@ -39,6 +39,7 @@ namespace Lab1
         public void processArtPiece()
         {
 
+            Console.WriteLine(m_Collection);
         }
 
         public void select()
@@ -46,9 +47,14 @@ namespace Lab1
 
         }
 
-        public void sort()
+        public List<ArtPiece> sort()
         {
+            List<ArtPiece> galerySorted = new List<ArtPiece>();
 
+
+            galerySorted.Add(new ArtPiece("Badly Shapen Pot", Categories.SCULPTURE, 25));
+
+            return galerySorted;
         }
     }
 }
