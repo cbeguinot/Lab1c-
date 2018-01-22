@@ -36,13 +36,13 @@ namespace Lab1
 
         //ProcessArtPiece method receiving IArtSelect as arg
         //Responsible for printing selected ArtPieces
-        public void processArtPiece()
+        public void processArtPiece(IArtSelect arg)
         {
-            List<ArtPiece> galerySelected = m_Collection;
+            List<ArtPiece> galerySelected = new List<ArtPiece>();
 
             foreach (ArtPiece piece in m_Collection)
             {
-                if (select(piece)==true)
+                if (arg.select(piece)==true)
                     galerySelected.Add(piece);
             }
 
@@ -50,19 +50,14 @@ namespace Lab1
             {
                 System.Console.WriteLine(piece.ToString());
             }
-
         }
 
-        public bool select(ArtPiece artPiece)
+        bool IArtSelect.select(ArtPiece artPiece)
         {
             if(artPiece.price > 150)
-            {
                 return true;
-            }
             else
-            {
                 return false;
-            }
         }
 
         //Tri la gallerie par prix croissant
